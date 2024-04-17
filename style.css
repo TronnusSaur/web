@@ -1,0 +1,116 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,300;0,600;1,100;1,600&family=Micro+5&family=Poppins:wght@400;500&display=swap');
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+    position: relative;
+    right: 0;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(8, 15, 2, 255);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 0, 255);
+    opacity: 50%;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 200, 0);
+    opacity: 50%;
+}
+/* --- */
+/* Main */
+* {
+    margin: 1.5vh;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-size: 28px;
+    
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+header {
+    position: relative;
+    border: 2px solid rgba(0, 255, 0, 255);
+    height: 25vh;
+    width: 99%;
+    padding: 30px 30px;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+h1{
+    align-content: center;
+    overflow-x: hidden;
+    font-size: 46px;
+}
+hr{
+    margin: auto;
+    width: 80%;
+}
+.siruope{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    border: 2px solid rgba(0, 255, 0, 255);
+    height: 65vh;
+    width: 45vh;
+    padding: 30px 30px;
+    overflow-y: scroll;
+    
+}
+section{
+    border: 2px solid rgba(0, 255, 0, 255);
+    height: 65vh;
+    width: 100%;
+    padding: 30px 30px;
+    text-align: justify;
+    display: flex;
+}
+section div{
+    margin: auto;
+}
+ul{
+    padding-top: 5px;
+}
+li{
+    list-style: none;
+    padding: 5px 0px;
+}
+li:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+}
+#sec_0{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+#sec_0 img{
+    display: block;
+    margin: auto;
+}
+#sec_0 img:hover{
+    cursor:help;
+}
+#sec_1{
+    display: none;
+}
+#sec_2{
+    display: none;
+}
+#sec_3{
+    display: none;
+}
+#sec_4{
+    display: none;
+}
