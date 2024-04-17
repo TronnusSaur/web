@@ -98,3 +98,8 @@ logo_01.addEventListener('click', ()=>{
     let audio = new Audio('Robotvoice.ogg');
     audio.play();
 });
+
+document.addEventListener("keypress", ()=>{
+    let bg_audio = new Audio('Ambience1.ogg');
+    bg_audio.play();
+})
