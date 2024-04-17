@@ -1,5 +1,6 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,300;0,600;1,100;1,600&family=Micro+5&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
 /* Scroll */
 ::-webkit-scrollbar {
@@ -24,18 +25,44 @@
     margin: 1.5vh;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     color: white;
-    font-family: "Micro 5", sans-serif;
-    font-size: 28px;
-    
+    font-size: 26px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
 body {
     background-color: black;
     overflow: hidden;
 }
-header {
+.cont{
+    display: flex;
+}
+#content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.05;
+    pointer-events: none;
+}
+#message{
+    position: absolute;
+    overflow: hidden;
+}
+#message section{
+    width: 97%;
+    height: 90vh;
+}
+#message section p{
+    margin: auto 15vh;
+    text-align: center;
+}
+i{
+    margin: 0;
+    padding: 0;
+    transform: translateY(-5);
+}
+header{
     position: relative;
     border: 2px solid rgba(0, 255, 0, 255);
     height: 25vh;
@@ -49,6 +76,7 @@ h1{
     align-content: center;
     overflow-x: hidden;
     font-size: 46px;
+    font-family: "Micro 5", sans-serif;
 }
 hr{
     margin: auto;

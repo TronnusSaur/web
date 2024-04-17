@@ -102,4 +102,10 @@ logo_01.addEventListener('click', ()=>{
 document.addEventListener("keypress", ()=>{
     let bg_audio = new Audio('Ambience1.ogg');
     bg_audio.play();
+
+    let msg = document.getElementById('message');
+    msg.style.display = "none";
+    let cnt = document.getElementById('content');
+    cnt.style.opacity = 1.0;
+    cnt.style.pointerEvents = "all";
 })
