@@ -75,6 +75,7 @@ section{
     padding: 30px 30px;
     text-align: justify;
     display: flex;
+    overflow-y: scroll;
 }
 section div{
     margin: auto;
