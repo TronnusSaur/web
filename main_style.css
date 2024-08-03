@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/** Lo Ocupo si o si xd**/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    background-color: #1b1b1b;
+}
+
+/** Cabecera **/
+.header{
+    position: sticky;
+    transition: 0.8s ease;
+    height: 180px;
+    align-items: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    z-index: 2;
+}
+.ehua_icon{
+    z-index: 2;
+    margin: 15px auto;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #1b1b1b;
+}
+.ehua_icon:hover{
+    width: 160px;
+    opacity: 0.8;
+}
+.nav_contact{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_contact li{
+    list-style: none;
+    margin: 1px;
+}
+.header p{
+    padding: 5px 25px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+#Oni:hover{
+    background: linear-gradient(to top, rgb(145, 109, 230),rgb(223, 87, 212));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/** Para cuando la cabecera baja **/
+.header.active{
+    margin: auto;  
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    background: scroll;
+    padding-left: calc(50% - 60px);
+    font-display: none;
+}
+.header.active p{
+    transform: translateX(2000px);
+    transition: 0.05s;
+}
+.header.active .nav_contact{
+    margin: 0%;
+    padding: 0;
+    transform: translateX(300px);
+    transition: 0.05s;
+}
+.header.active .ehua_icon{
+    width: 120px;
+    border-radius: 150px;
+    opacity: 0.8;;
+}
+.header.active .ehua_icon:hover{
+    opacity: 1;
+}
+
+/** Contenido Principal **/
+.need{
+    background-color: #101010;
+    border: #000;
+    height: 35px;
+}
+.main_cont{
+    width: 100%;
+    transition: 0.6s;
+}
+.img_contact{
+    width: 40px;
+    border-radius: 3px;
+}
+.img_contact:hover{
+    transition: 0.1s;
+    width: calc(40px + 5px);
+}
+.content{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    background-color: #1b1b1b;
+    height: 800px;
+
+}
+.main_img{
+    background-color: #1b1b1b;
+    height: 600px;
+    overflow: hidden;
+    padding-bottom: 150px;
+    opacity: 0.5;
+}
+.content img{
+    width: 100%;
+}
+.cont_2{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    overflow: hidden;
+}
+.other_img{
+    overflow: hidden;
+    width: calc(50% + 5px);
+    height: calc(auto - 500px);
+}
+.other_img:hover{
+    opacity: 0.8;
+}
+.cont_text h3{
+    padding-bottom: 15px;
+}
+.cont_text{
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    padding: 105px 55px;
+}
+
+/** Pie de Página **/
+.pie{
+    height: 10050px;
+}
+
+/** Para Celulares **/
+@media screen and (max-width: 1024px){
+    .ehua_icon{
+        width: 90px;
+        border-radius: 30px;
+    }
+    .ehua_icon:hover{
+        width: 95px;
+    }
+    .header.active{
+        padding-left: calc(50% - 38px); 
+    }
+    .header.active .ehua_icon{
+        width: 80px;
+    }
+    .header p{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 700px){
+    .header p{
+        font-size: 24px;
+    }
+    .nav_contact{
+        display: block;
+        width: 25px;
+    }
+    .nav_contact img{
+        width: 25px;
+    }
+
+    /** Contenido Principal **/
+    .cont_2{
+        height: 255px;
+    }
+    .cont_text{
+        height: 24px;
+        font-size: 11px;
+        padding-top: 45px;
+    }
+}
+@media screen and (max-width: 400px){
+    .ehua_icon{
+        width: 80px;
+        border-radius: 30px;
+    }
+    .header.active .nav_contact{
+        display: none;
+    }
+    .cont_2{
+        height: 185px;
+    }
+    .cont_text{
+        padding: 5px 25px;
+        height: 24px;
+        font-size: 9px;
+        padding-top: 45px;
+    }
+}
