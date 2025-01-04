@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_max-width(1024).css">
-    <link rel="stylesheet" href="style_max-width(768).css">
-    <link rel="stylesheet" href="style_max-width(425).css">
-    <link rel="stylesheet" href="style_max-width(375).css">
-    <link rel="stylesheet" href="style_max-width(320).css">
-    <link rel="stylesheet" href="style_max-width(305).css">
+    <link rel="stylesheet" href="foot_styles.css">
+    <link rel="stylesheet" href="style_width(1024).css">
+    <link rel="stylesheet" href="style_width(768).css">
+    <link rel="stylesheet" href="style_width(42_5).css">
+    <link rel="stylesheet" href="style_width(375).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Fuentes Letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
@@ -28,112 +23,8 @@
     <link rel="icon" href="src/img/EHUA - ICON - CIRCLE.png">
     <title> EHUA: Escuela de lenguas </title>
 </head>
-
 <body>
-    <div class="background" id="top">
-        <div class="header">
-            <div class="ct-contact">
-                <div class="contact-pt1">
-                    <a href=""><i class="fa-regular fa-envelope"></i> contact@ehua_online.com </a>
-                    <a href=""><i class="fa-solid fa-mobile-screen"></i> +52 722 444 555 </a>
-                </div>
-                <div class="contact-pt2">
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="nav_space">
-                <div class="nav_bar">
-                    <img src="src/img/EHUA - ICON.jpeg" alt="" id="main_img">
-                    <ul>
-                        <li><a href="">No hay nada</a></li>
-                        <li><a href="">No hay nada</a></li>
-                        <li><a href="">No hay nada</a></li>
-                        <li><a href="#contact-us">Contáctanos</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="port_index">
-                <div class="port_index_txt">
-                    <h3>¡Bienvenidos a EHUA Online!</h3>
-                    <p>
-                        Somos una empresa líder en el campo de la enseñanza de idiomas a través de la modalidad
-                        e-learning.
-                    </p>
-                    <a href="#us-info">Conócenos</a>
-                    <a id="watch_now"><i class="fa-solid fa-circle-play"></i> Ver vídeo</a>
-                </div>
-                <div class="port_index_img">
-                    <img src="src/img/EHUA - TEAM.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="block_cont">
-            <div class="block" id="block_01"><i class="fa-solid fa-flag"></i>
-                <p>Nivel del <br> Lenguaje</p>
-            </div>
-            <div class="block" id="block_02"><i class="fa-solid fa-plane-departure"></i>
-                <p>Dentro del <br> extranjero</p>
-            </div>
-            <div class="block" id="block_03"><i class="fa-solid fa-passport"></i>
-                <p>Aquí va <br> texto</p>
-            </div>
-            <div class="block" id="block_04"><i class="fa-solid fa-graduation-cap"></i>
-                <p>Aquí va <br> texto</p>
-            </div>
-        </div>
-        <!--  -->
-        <div class="ct-info_index" id="us-info">
-            <h3> Nosotros </h3>
-            <hr>
-            <p>
-                ¡Bienvenidos a EHUA Online! Somos una empresa líder en el campo de la
-                enseñanza de idiomas a través de la modalidad e-learning. Nuestro objetivo
-                principal es brindar a nuestros estudiantes una experiencia educativa en
-                línea excepcional, que les permita alcanzar sus metas lingüísticas de manera
-                eficiente y efectiva.
-
-            </p>
-
-            <div class="ct-info_index_2">
-                <div class="ct-info_index_2_pt1">
-                    <h2>Nuestros Servicios</h2>
-                    <br>
-                    <img src="src/img/PEXELS - 7516353.jpg" alt="">
-                </div>
-                <div class="ct-info_index_2_pt2">
-                    <p>
-                        En EHUA Online comprendemos que el dominio de los idiomas es esencial
-                        en un mundo cada vez más globalizado. Ya sea que busques mejorar tus
-                        habilidades comunicativas para el trabajo, los estudios o el desarrollo
-                        personal, nuestro equipo de profesionales altamente calificados está
-                        aquí para ayudarte en cada paso del camino.
-                        <br><br>
-                        El e-learning, o aprendizaje en línea, ofrece una serie de ventajas
-                        que lo hacen una opción atractiva para estudiantes y profesionales.
-                        Aquí tienes una lista de algunas de las principales ventajas del e-learning:
-                    </p>
-                    <ul>
-                        <li><i class="fa-solid fa-circle-check"></i> Le permite acceder a los materiales y cursos desde
-                            cualquier lugar y en cualquier momento. </li>
-                        <li><i class="fa-solid fa-circle-check"></i> Al no requerir traslados a un lugar físico, el
-                            e-learning ahorra tiempo y costos asociados
-                            con el transporte. </li>
-                        <li><i class="fa-solid fa-circle-check"></i> Los cursos en línea le ofrecen la flexibilidad de
-                            adaptarse a
-                            sus horarios. Esto es especialmente beneficioso para aquellos que tienen compromisos
-                            laborales o académicos, ya que pueden organizar su tiempo de estudio de
-                            acuerdo a sus necesidades. </li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-
+        <!-- Form -->
         <div class="ct-info_valores">
             <h1> Nuestro Objetivo </h1>
             <hr><br>
@@ -179,6 +70,7 @@
                 </div>
             </div>
         </div>
+        <!-- -->
 
         <!-- Form -->
         <div class="main_form" id="contact-us">
@@ -192,35 +84,29 @@
                     <li>
                         <i class="fa-solid fa-envelope"></i>
                         <h5>Correo</h5>
-                        <p>contact@ehua_online.com</p>
+                        <p>ehuaonline@zmail.com</p>
                     </li>
                     <li>
                         <i class="fa-solid fa-phone"></i>
                         <h5>Teléfono</h5>
-                        <p>+52 722 444 555</p>
+                        <p>+52 722 894 2216</p>
                     </li>
                 </ul>
             </div>
             <hr class="un">
-            <div class="first_info">
-                <form method="post">
-                    <h3> Contactenos </h3>
-                    <p>Si necesita algúna acesoria o ayuda con alguno de nuestros servicios
-                        le recomendamos hablar con uno de nuestros profesionales aquí abajo</p>
-                    <input type="varchar" name="user_name" placeholder="Nombre"><br>
-                    <input type="email" name="e_mail" placeholder="Email"><br>
-                    <textarea name="message" placeholder="Mensaje" cols="50" rows="10" maxlength="100"></textarea><br>
-                    <input type="submit" name="enter" value="Enviar"><br>
-                    <!-- <?php
-                        include('reg_users.php');
-                    ?> -->
-                </form>
-            </div>
-        </div><br><br>
+            <form method="post">
+                    <h3> Contáctanos </h3>
+                    <p>Si necesitas asesoría o ayuda con alguno de nuestros servicios envíanos tu inquietud y un profesional se pondrá en contacto contigo.</p>
+                    <input type="varchar" id="name" placeholder="Nombre">
+                    <input type="email" id="email" placeholder="Email">
+                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea>
+                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()">
+            </form>
+        </div>
         <!-- -->
 
         <!-- FAQ -->
-        <div class="cont_faq">
+        <div class="cont_faq" id="faq_cont">
             <div class="faq_txt">
                 <h3>
                     Frequently <br>
@@ -293,7 +179,6 @@
                 </ul>
             </div>
         </div>
-        <br><br>
 
         <!-- -->
         <div class="foot">
@@ -307,24 +192,24 @@
                         Deleniti voluptatum animi atque!
                     </p>
                     <ul>
-                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/1GQdGW9zeG" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/idiomasehua?igsh=OWx3azQzNXlmdXJz" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="contact_div">
                     <ul id="">
-                        <li><b class="bigger_nicer">Le puede servir</b></li>
+                        <li><b class="bigger_nicer">Secciones</b></li>
                         <br>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="">Nosotros</a></li>
-                        <li><a href="">Servicios</a></li>
+                        <li><a href="#top">Inicio</a></li>
+                        <li><a href="#us-info">Nosotros</a></li>
+                        <li><a href="#faq_cont">FAQ</a></li>
                         <li><a href="">Terminos de Servicio</a></li>
                         <li><a href="">Política de Privacidad</a></li>
                     </ul>
                     <ul id="">
-                        <li><b class="bigger_nicer">Contactenos</b></li>
+                        <li><b class="bigger_nicer">Contáctanos</b></li>
                         <br>
                         <li>
                             <p>Dirección</p>
@@ -333,8 +218,8 @@
                             <p>Dirección</p>
                         </li>
                         <li>&nbsp;</li>
-                        <li><a href=""><i class="fa-regular fa-envelope"></i> contact@ehua_online.com </a></li>
-                        <li><a href=""><i class="fa-solid fa-phone"></i> +52 722 444 555 </a></li>
+                        <li><p><i class="fa-regular fa-envelope"></i> ehuaonline@zmail.com </li></p>
+                        <li><p><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></p>
                     </ul>
                 </div>
             </div>
@@ -342,9 +227,11 @@
                 <i class="fa-regular fa-copyright"></i> Copyright EHUA ONLINE. <br> All Rights Reserved
             </div>
         </div>
-    </div>
-    <!-- JavaScript -->
-    <script src="app.js"></script>
-</body>
 
+    <!-- JavaScript -->
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+    <!-- // -->
+
+</body>
 </html>
