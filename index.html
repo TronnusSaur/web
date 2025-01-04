@@ -8,13 +8,11 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_max-width(1024).css">
-    <link rel="stylesheet" href="style_max-width(768).css">
-    <link rel="stylesheet" href="style_max-width(425).css">
-    <link rel="stylesheet" href="style_max-width(375).css">
-    <link rel="stylesheet" href="style_max-width(320).css">
-    <link rel="stylesheet" href="style_max-width(305).css">
+    <link rel="stylesheet" href="style_test.css">
+    <link rel="stylesheet" href="style_width(102_4).css">
+    <link rel="stylesheet" href="style_width(768).css">
+    <link rel="stylesheet" href="style_width(42_5).css">
+    <link rel="stylesheet" href="style_width(375).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Fuentes Letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,7 +131,9 @@
                 </div>
             </div>
         </div>
+        <!-- -->
 
+        <!-- Form -->
         <div class="ct-info_valores">
             <h1> Nuestro Objetivo </h1>
             <hr><br>
@@ -179,6 +179,7 @@
                 </div>
             </div>
         </div>
+        <!-- -->
 
         <!-- Form -->
         <div class="main_form" id="contact-us">
@@ -192,35 +193,31 @@
                     <li>
                         <i class="fa-solid fa-envelope"></i>
                         <h5>Correo</h5>
-                        <p>contact@ehua_online.com</p>
+                        <p>ehuaonline@zmail.com</p>
                     </li>
                     <li>
                         <i class="fa-solid fa-phone"></i>
                         <h5>Teléfono</h5>
-                        <p>+52 722 444 555</p>
+                        <p>+52 722 894 2216</p>
                     </li>
                 </ul>
             </div>
             <hr class="un">
             <div class="first_info">
                 <form method="post">
-                    <h3> Contactenos </h3>
-                    <p>Si necesita algúna acesoria o ayuda con alguno de nuestros servicios
-                        le recomendamos hablar con uno de nuestros profesionales aquí abajo</p>
-                    <input type="varchar" name="user_name" placeholder="Nombre"><br>
-                    <input type="email" name="e_mail" placeholder="Email"><br>
-                    <textarea name="message" placeholder="Mensaje" cols="50" rows="10" maxlength="100"></textarea><br>
-                    <input type="submit" name="enter" value="Enviar"><br>
-                    <!-- <?php
-                        include('reg_users.php');
-                    ?> -->
+                    <h3> Contáctanos </h3>
+                    <p>Si necesitas asesoría o ayuda con alguno de nuestros servicios envíanos tu inquietud y un profesional se pondrá en contacto contigo.</p>
+                    <input type="varchar" id="name" placeholder="Nombre"><br>
+                    <input type="email" id="email" placeholder="Email"><br>
+                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea><br>
+                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()"><br>
                 </form>
             </div>
-        </div><br><br>
+        </div>
         <!-- -->
 
         <!-- FAQ -->
-        <div class="cont_faq">
+        <div class="cont_faq" id="faq_cont">
             <div class="faq_txt">
                 <h3>
                     Frequently <br>
@@ -293,7 +290,6 @@
                 </ul>
             </div>
         </div>
-        <br><br>
 
         <!-- -->
         <div class="foot">
@@ -307,24 +303,24 @@
                         Deleniti voluptatum animi atque!
                     </p>
                     <ul>
-                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/1GQdGW9zeG" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/idiomasehua?igsh=OWx3azQzNXlmdXJz" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="contact_div">
                     <ul id="">
-                        <li><b class="bigger_nicer">Le puede servir</b></li>
+                        <li><b class="bigger_nicer">Secciones</b></li>
                         <br>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="">Nosotros</a></li>
-                        <li><a href="">Servicios</a></li>
+                        <li><a href="#top">Inicio</a></li>
+                        <li><a href="#us-info">Nosotros</a></li>
+                        <li><a href="#faq_cont">FAQ</a></li>
                         <li><a href="">Terminos de Servicio</a></li>
                         <li><a href="">Política de Privacidad</a></li>
                     </ul>
                     <ul id="">
-                        <li><b class="bigger_nicer">Contactenos</b></li>
+                        <li><b class="bigger_nicer">Contáctanos</b></li>
                         <br>
                         <li>
                             <p>Dirección</p>
@@ -333,8 +329,8 @@
                             <p>Dirección</p>
                         </li>
                         <li>&nbsp;</li>
-                        <li><a href=""><i class="fa-regular fa-envelope"></i> contact@ehua_online.com </a></li>
-                        <li><a href=""><i class="fa-solid fa-phone"></i> +52 722 444 555 </a></li>
+                        <li><p><i class="fa-regular fa-envelope"></i> ehuaonline@zmail.com </li></p>
+                        <li><p><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></p>
                     </ul>
                 </div>
             </div>
@@ -342,8 +338,11 @@
                 <i class="fa-regular fa-copyright"></i> Copyright EHUA ONLINE. <br> All Rights Reserved
             </div>
         </div>
+        <!-- -->
+
     </div>
     <!-- JavaScript -->
+    <script src="api.js"></script>
     <script src="app.js"></script>
 </body>
 
