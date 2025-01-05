@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <!-- Estilos -->
-    <link rel="stylesheet" href="style_test.css">
-    <link rel="stylesheet" href="style_width(102_4).css">
-    <link rel="stylesheet" href="style_width(768).css">
-    <link rel="stylesheet" href="style_width(42_5).css">
-    <link rel="stylesheet" href="style_width(375).css">
+    <link rel="stylesheet" href="test-s.css">
+    <link rel="stylesheet" href="style-width(1024).css">
+    <link rel="stylesheet" href="style-width(768).css">
+    <link rel="stylesheet" href="style-width(425).css">
+    <link rel="stylesheet" href="style-width(375).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Fuentes Letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- Info. Pestaña -->
     <link rel="icon" href="src/img/EHUA - ICON - CIRCLE.png">
     <title> EHUA: Escuela de lenguas </title>
@@ -84,9 +83,10 @@
                 <p>Aquí va <br> texto</p>
             </div>
         </div>
-        <!--  -->
+
+        <!-- Nosotros  -->
         <div class="ct-info_index" id="us-info">
-            <h3> Nosotros </h3>
+            <h1> Nosotros </h1>
             <hr>
             <p>
                 ¡Bienvenidos a EHUA Online! Somos una empresa líder en el campo de la
@@ -100,7 +100,6 @@
             <div class="ct-info_index_2">
                 <div class="ct-info_index_2_pt1">
                     <h2>Nuestros Servicios</h2>
-                    <br>
                     <img src="src/img/PEXELS - 7516353.jpg" alt="">
                 </div>
                 <div class="ct-info_index_2_pt2">
@@ -133,12 +132,12 @@
         </div>
         <!-- -->
 
-        <!-- Form -->
-        <div class="ct-info_valores">
-            <h1> Nuestro Objetivo </h1>
-            <hr><br>
-            <div class="ct-info_valores-blocks">
-                <div class="block-v">
+        <!-- Info Valores -->
+        <h1> Nuestro Objetivo </h1>
+        <hr><br>
+        <div class="ct-info_valores swiper">
+            <div class="ct-info_valores-blocks swiper-wrapper">
+                <div class="block-v swiper-slide">
                     <h2>Visión</h2>
                     <div class="icon_circle">
                         <i class="fa-regular fa-eye"></i>
@@ -151,7 +150,7 @@
                         hacia el éxito.
                     </p>
                 </div>
-                <div class="block-v">
+                <div class="block-v swiper-slide">
                     <h2>Misión</h2>
                     <div class="icon_circle">
                         <i class="fa-solid fa-trophy"></i>
@@ -164,7 +163,7 @@
                         magni quisquam ex obcaecati provident!
                     </p>
                 </div>
-                <div class="block-v">
+                <div class="block-v swiper-slide">
                     <h2>Valores</h2>
                     <div class="icon_circle">
                         <i class="fa-regular fa-paper-plane"></i>
@@ -178,6 +177,8 @@
                     </p>
                 </div>
             </div>
+            <div class="swiper-button-prev" style="color: rgba(143, 81, 134)"></div>
+            <div class="swiper-button-next" style="color: rgba(143, 81, 134)"></div>
         </div>
         <!-- -->
 
@@ -291,7 +292,7 @@
             </div>
         </div>
 
-        <!-- -->
+        <!-- Pie -->
         <div class="foot">
             <div class="foot_info">
                 <div class="foot_content">
@@ -341,9 +342,11 @@
         <!-- -->
 
     </div>
+
     <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
     <script src="api.js"></script>
     <script src="app.js"></script>
 </body>
-
 </html>
