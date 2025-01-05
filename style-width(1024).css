@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px){
+    /* Contact UP */
+    .ct-contact{
+        padding: 5px 70px;
+        font-size: 14px;
+        align-items: center;
+    }
+    .ct-contact i{
+        font-size: 14px;
+    }
+
+    /** Barra de Navegación **/
+    .nav_bar a{
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+
+    /** Portada **/
+    .port_index{
+        font-size: 16px;
+        height: 495px;
+    }
+    .port_index_txt a{
+        padding: 13px 20px;
+    }
+    .port_index img{
+        width: 140%;
+        transform: translateX(-50px);
+    }
+    /* Blocks */
+    .block{
+        height: 180px;
+        padding: 6% 0;
+    }
+
+    /** Main Info **/
+    .ct-info_index{
+        font-size: 15px;
+    }
+    .ct-info_index_2 h2{
+        display: none;
+    }
+    .ct-info_index_2_pt2 p{
+        margin: auto;
+    }
+    .ct-info_index_2_pt2 ul{
+        list-style: none;
+        padding: 6px 0px;
+    }
+    .ct-info_index_2_pt2 li{
+        padding: 2px 0;
+    }
+
+    /* Info Valores */
+    .ct-info_valores h3{
+        font-size: 36px;
+    }
+    .ct-info_valores-blocks{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    .block-v{
+        height: 400px;
+        padding: 45px 30px;
+        transition: 0.25s ;
+    }
+
+    /** FAQ **/
+    .faq_txt h3{
+        font-size: 30px;
+    }
+    .faq_txt p{
+        font-size: 15px;
+    }
+    .faq_ask{
+        padding: 4px 0;
+    }
+    .faq_faq b{
+        font-size: 15px;
+    }
+
+    /** Form */
+    .sec_info i{
+        font-size: 30px;
+    }
+    /**/
+
+    /** Foot **/
+    .foot{
+        font-size: 16px;
+    }
+    /* */
+}   
