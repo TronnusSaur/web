@@ -34,7 +34,7 @@
                     <a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-mobile-screen"></i> +52 722 894 2216 </a>
                 </div>
                 <div class="line_up_pt2">
-                    <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://www.facebook.com/share/1GQdGW9zeG" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/idiomasehua?igsh=OWx3azQzNXlmdXJz" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -270,7 +270,7 @@
                         Deleniti voluptatum animi atque!
                     </p>
                     <ul>
-                        <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
                         <li><a href="https://www.facebook.com/share/1GQdGW9zeG" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a href="https://www.instagram.com/idiomasehua?igsh=OWx3azQzNXlmdXJz" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
