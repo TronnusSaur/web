@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <!-- Estilos -->
-    <link rel="stylesheet" href="test-s.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-width(1024).css">
     <link rel="stylesheet" href="style-width(768).css">
     <link rel="stylesheet" href="style-width(425).css">
@@ -25,64 +25,47 @@
     <link rel="icon" href="src/img/EHUA - ICON - CIRCLE.png">
     <title> EHUA: Escuela de lenguas </title>
 </head>
-
 <body>
-    <div class="background" id="top">
-        <div class="header">
-            <div class="ct-contact">
-                <div class="contact-pt1">
-                    <a href=""><i class="fa-regular fa-envelope"></i> contact@ehua_online.com </a>
-                    <a href=""><i class="fa-solid fa-mobile-screen"></i> +52 722 444 555 </a>
-                </div>
-                <div class="contact-pt2">
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </div>
 
+        <!-- Arriba -->
+        <div class="line_up">
+                <div class="line_up_pt1">
+                    <a href=""><i class="fa-regular fa-envelope"></i> ehuaonline@zmail.com </a>
+                    <a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-mobile-screen"></i> +52 722 894 2216 </a>
+                </div>
+                <div class="line_up_pt2">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/1GQdGW9zeG" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/idiomasehua?igsh=OWx3azQzNXlmdXJz" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+        <div class="banner">
             <div class="nav_space">
                 <div class="nav_bar">
                     <img src="src/img/EHUA - ICON.jpeg" alt="" id="main_img">
                     <ul>
                         <li><a href="">No hay nada</a></li>
                         <li><a href="">No hay nada</a></li>
-                        <li><a href="">No hay nada</a></li>
+                        <li><a href="#our-team">Nuestro Equipo</a></li>
                         <li><a href="#contact-us">Contáctanos</a></li>
                     </ul>
                 </div>
-
             </div>
-            <div class="port_index">
-                <div class="port_index_txt">
-                    <h3>¡Bienvenidos a EHUA Online!</h3>
+            <div class="banner_txt">
+                <h3>¡Bienvenidos a EHUA Online!</h3>
                     <p>
                         Somos una empresa líder en el campo de la enseñanza de idiomas a través de la modalidad
                         e-learning.
                     </p>
-                    <a href="#us-info">Conócenos</a>
+                    <a id="meet_us" href="#us-info">Conócenos</a>
                     <a id="watch_now"><i class="fa-solid fa-circle-play"></i> Ver vídeo</a>
-                </div>
-                <div class="port_index_img">
-                    <img src="src/img/EHUA - TEAM.png" alt="">
-                </div>
+            </div>
+            <div class="banner_img">
+                <img src="src/img/EHUA - TEAM.png" alt="">
             </div>
         </div>
-        <div class="block_cont">
-            <div class="block" id="block_01"><i class="fa-solid fa-flag"></i>
-                <p>Nivel del <br> Lenguaje</p>
-            </div>
-            <div class="block" id="block_02"><i class="fa-solid fa-plane-departure"></i>
-                <p>Dentro del <br> extranjero</p>
-            </div>
-            <div class="block" id="block_03"><i class="fa-solid fa-passport"></i>
-                <p>Aquí va <br> texto</p>
-            </div>
-            <div class="block" id="block_04"><i class="fa-solid fa-graduation-cap"></i>
-                <p>Aquí va <br> texto</p>
-            </div>
-        </div>
+        <!-- -->
 
         <!-- Nosotros  -->
         <div class="ct-info_index" id="us-info">
@@ -112,9 +95,9 @@
                         <br><br>
                         El e-learning, o aprendizaje en línea, ofrece una serie de ventajas
                         que lo hacen una opción atractiva para estudiantes y profesionales.
-                        Aquí tienes una lista de algunas de las principales ventajas del e-learning:
+                        <!-- Aquí tienes una lista de algunas de las principales ventajas del e-learning: -->
                     </p>
-                    <ul>
+                    <!-- <ul>
                         <li><i class="fa-solid fa-circle-check"></i> Le permite acceder a los materiales y cursos desde
                             cualquier lugar y en cualquier momento. </li>
                         <li><i class="fa-solid fa-circle-check"></i> Al no requerir traslados a un lugar físico, el
@@ -126,60 +109,45 @@
                             laborales o académicos, ya que pueden organizar su tiempo de estudio de
                             acuerdo a sus necesidades. </li>
                     </ul>
-
+                    -->
                 </div>
             </div>
         </div>
         <!-- -->
 
         <!-- Info Valores -->
-        <h1> Nuestro Objetivo </h1>
+        <h1 id="our-team"> Nuestro Equipo </h1>
         <hr><br>
-        <div class="ct-info_valores swiper">
-            <div class="ct-info_valores-blocks swiper-wrapper">
-                <div class="block-v swiper-slide">
-                    <h2>Visión</h2>
-                    <div class="icon_circle">
-                        <i class="fa-regular fa-eye"></i>
-                    </div>
-                    <p>
-                        En EHUA Online, nos apasiona brindarte las
-                        herramientas necesarias para potenciar tu crecimiento
-                        personal, académico y profesional. Nuestra red de
-                        aprendizaje revolucionaria y rentable te guiará
-                        hacia el éxito.
-                    </p>
+        <div class="ct-info_valores swiper" id="ct-info_valores" style="margin: 0 2rem;">
+            <div class="ct-info_valores-blocks swiper-wrapper" id="ct-info_valores-blocks">
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/01 - Marco.jpeg" alt="">
                 </div>
-                <div class="block-v swiper-slide">
-                    <h2>Misión</h2>
-                    <div class="icon_circle">
-                        <i class="fa-solid fa-trophy"></i>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Eius, eum ad. Praesentium
-                        itaque ipsum amet voluptate ut eveniet possimus
-                        adipisci cumque minus vero alias, asperiores
-                        magni quisquam ex obcaecati provident!
-                    </p>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/02 - Isabella.jpeg" alt="">
                 </div>
-                <div class="block-v swiper-slide">
-                    <h2>Valores</h2>
-                    <div class="icon_circle">
-                        <i class="fa-regular fa-paper-plane"></i>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Eius, eum ad. Praesentium
-                        itaque ipsum amet voluptate ut eveniet possimus
-                        adipisci cumque minus vero alias, asperiores
-                        magni quisquam ex obcaecati provident!
-                    </p>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/03 - Judy.jpeg" alt="">
+                </div>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/04 - Svetlana.jpeg" alt="">
+                </div>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/05 - Alex.jpeg" alt="">
+                </div>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/06 - Ivan.jpeg" alt=""></div>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/07 - Blanca.jpeg" alt="">
+                </div>
+                <div class="block-v swiper-slide" id="block-v">
+                    <img src="src/integrantes/08 - Oscar.jpeg" alt="">
                 </div>
             </div>
             <div class="swiper-button-prev" style="color: rgba(143, 81, 134)"></div>
             <div class="swiper-button-next" style="color: rgba(143, 81, 134)"></div>
         </div>
+       
         <!-- -->
 
         <!-- Form -->
@@ -197,23 +165,21 @@
                         <p>ehuaonline@zmail.com</p>
                     </li>
                     <li>
-                        <i class="fa-solid fa-phone"></i>
+                        <a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-phone"></i></a>
                         <h5>Teléfono</h5>
                         <p>+52 722 894 2216</p>
                     </li>
                 </ul>
             </div>
             <hr class="un">
-            <div class="first_info">
-                <form method="post">
+            <form method="post">
                     <h3> Contáctanos </h3>
                     <p>Si necesitas asesoría o ayuda con alguno de nuestros servicios envíanos tu inquietud y un profesional se pondrá en contacto contigo.</p>
-                    <input type="varchar" id="name" placeholder="Nombre"><br>
-                    <input type="email" id="email" placeholder="Email"><br>
-                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea><br>
-                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()"><br>
-                </form>
-            </div>
+                    <input type="varchar" id="name" placeholder="Nombre">
+                    <input type="email" id="email" placeholder="Email">
+                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea>
+                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()">
+            </form>
         </div>
         <!-- -->
 
@@ -331,7 +297,7 @@
                         </li>
                         <li>&nbsp;</li>
                         <li><p><i class="fa-regular fa-envelope"></i> ehuaonline@zmail.com </li></p>
-                        <li><p><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></p>
+                        <li><a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></a>
                     </ul>
                 </div>
             </div>
@@ -339,14 +305,13 @@
                 <i class="fa-regular fa-copyright"></i> Copyright EHUA ONLINE. <br> All Rights Reserved
             </div>
         </div>
-        <!-- -->
-
-    </div>
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="api.js"></script>
-    <script src="app.js"></script>
+    <script src="app_.js"></script>
+    <!-- // -->
+
 </body>
 </html>

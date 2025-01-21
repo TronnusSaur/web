@@ -7,6 +7,16 @@
         padding: 8px 15px;
         font-size: 12px;
     }
+    .banner_txt{
+        padding: 0;
+    }
+    .line_up_pt2{
+        padding: 0;
+    }
+    .nav_space{
+        margin-top: 1.5rem;
+    }
+    /* */
 
     /** Portada **/
     .port_index{

@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-width(1024).css">
     <link rel="stylesheet" href="style-width(768).css">
     <link rel="stylesheet" href="style-width(425).css">
     <link rel="stylesheet" href="style-width(375).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="test-s.css">
     <!-- Fuentes Letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +25,9 @@
     <link rel="icon" href="src/img/EHUA - ICON - CIRCLE.png">
     <title> EHUA: Escuela de lenguas </title>
 </head>
-<body>
 
+<body>
+    <div class="background" id="top">
         <!-- Arriba -->
         <div class="line_up">
                 <div class="line_up_pt1">
@@ -95,9 +96,9 @@
                         <br><br>
                         El e-learning, o aprendizaje en línea, ofrece una serie de ventajas
                         que lo hacen una opción atractiva para estudiantes y profesionales.
-                        <!-- Aquí tienes una lista de algunas de las principales ventajas del e-learning: -->
+                        Aquí tienes una lista de algunas de las principales ventajas del e-learning:
                     </p>
-                    <!-- <ul>
+                    <ul>
                         <li><i class="fa-solid fa-circle-check"></i> Le permite acceder a los materiales y cursos desde
                             cualquier lugar y en cualquier momento. </li>
                         <li><i class="fa-solid fa-circle-check"></i> Al no requerir traslados a un lugar físico, el
@@ -109,7 +110,7 @@
                             laborales o académicos, ya que pueden organizar su tiempo de estudio de
                             acuerdo a sus necesidades. </li>
                     </ul>
-                    -->
+
                 </div>
             </div>
         </div>
@@ -147,8 +148,6 @@
             <div class="swiper-button-prev" style="color: rgba(143, 81, 134)"></div>
             <div class="swiper-button-next" style="color: rgba(143, 81, 134)"></div>
         </div>
-       
-        <!-- -->
 
         <!-- Form -->
         <div class="main_form" id="contact-us">
@@ -165,21 +164,23 @@
                         <p>ehuaonline@zmail.com</p>
                     </li>
                     <li>
-                        <a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                        <i class="fa-solid fa-phone"></i>
                         <h5>Teléfono</h5>
                         <p>+52 722 894 2216</p>
                     </li>
                 </ul>
             </div>
             <hr class="un">
-            <form method="post">
+            <div class="first_info">
+                <form method="post">
                     <h3> Contáctanos </h3>
                     <p>Si necesitas asesoría o ayuda con alguno de nuestros servicios envíanos tu inquietud y un profesional se pondrá en contacto contigo.</p>
-                    <input type="varchar" id="name" placeholder="Nombre">
-                    <input type="email" id="email" placeholder="Email">
-                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea>
-                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()">
-            </form>
+                    <input type="varchar" id="name" placeholder="Nombre"><br>
+                    <input type="email" id="email" placeholder="Email"><br>
+                    <textarea id="msg" placeholder="Mensaje" cols="50" rows="10" maxlength="200"></textarea><br>
+                    <input type="submit" name="enter" value="Enviar" onclick="send_msg()"><br>
+                </form>
+            </div>
         </div>
         <!-- -->
 
@@ -297,7 +298,7 @@
                         </li>
                         <li>&nbsp;</li>
                         <li><p><i class="fa-regular fa-envelope"></i> ehuaonline@zmail.com </li></p>
-                        <li><a href="https://wa.me/5217228942216?" target="_blank"><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></a>
+                        <li><p><i class="fa-solid fa-phone"></i> +52 722 894 2216</li></p>
                     </ul>
                 </div>
             </div>
@@ -305,13 +306,14 @@
                 <i class="fa-regular fa-copyright"></i> Copyright EHUA ONLINE. <br> All Rights Reserved
             </div>
         </div>
+        <!-- -->
+
+    </div>
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="api.js"></script>
     <script src="app_.js"></script>
-    <!-- // -->
-
 </body>
 </html>

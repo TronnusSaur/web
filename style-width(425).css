@@ -7,6 +7,53 @@
         padding: 8px 15px;
         font-size: 12px;
     }
+    /**/
+
+    /** Banner */
+    .line_up{
+        padding: 0;
+    }
+    .line_up_pt1{
+        display: none;
+    }
+    .line_up_pt2{
+        margin: auto;
+    }
+    .line_up_pt2 a{
+        padding: 0 2rem;
+    }
+    .nav_space{
+        margin-top: 0.8rem;
+    }
+    .nav_bar{
+        margin: 0;
+    }
+    .nav_bar ul{
+        display: none;
+    }
+    .nav_bar img{
+        margin: auto;
+        width: 40%;
+    }
+    .banner{
+        grid-template-columns: 100%;
+    }
+    .banner{
+        height: 28rem;
+    }
+    .banner_txt{
+        transform: translateY(0);
+    }
+    .banner_txt h3{
+        text-align: center;
+    }
+    .banner_txt a{
+        display: none;
+    }
+    .banner_img{
+        display: none;
+    }
+    /**/
 
     /** Portada **/
     .port_index{
@@ -51,7 +98,7 @@
     .ct-info_index{
         font-size: 14px;
         margin: auto;
-        padding: 0px 50px;
+        padding: 20px 50px;
     }
     .ct-info_index p{
         padding-bottom: 12px;

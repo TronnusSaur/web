@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 body{
     background-color: #fff;
@@ -22,23 +23,10 @@ hr{
 h1{
     text-align: center;
 }
-/* --- */
-
-/* --- */
-/** Miscelaneos **/
-.background{
-    padding: 0;
-    width: 100%;
+.swiper-button-next, .swiper-button-prev{
+    color: #000;
 }
 
-hr{
-    height: 3px;
-    background-color: rgb(143, 81, 134);
-    width: 15%;
-    border: none;
-    margin: 15px auto;
-    border-radius: 5%;
-}
 
 /* Links */
 a{
@@ -53,6 +41,7 @@ a:visited{
 ::selection {
     background: #9bcedd;
 }
+/* */
 
 /* Scroll */
 ::-webkit-scrollbar {
@@ -73,62 +62,50 @@ a:visited{
 }
 /* --- */
 
-/* --- */
-/** Navegación **/
-.header{
-    
-    width: 100%;
-    margin: auto;
-    padding: 0;
 
-    justify-content: space-between;
-    transition: 0.25s;
-    
-    z-index: 10;
-    background-color: #1b1b1bf8;
-}
-
-/* Contact UP */
-.ct-contact{
+/* Banner*/
+.line_up{
     background-color: rgb(175, 99, 164);
+    height: 2rem;
     width: 100%;
-
+    position: absolute;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-
-    padding: 7px 70px;
+    padding: 0 3rem;
+    z-index: 2;
 }
-.ct-contact a{
-    transition: 0.12s;
+.line_up_pt1{
+    padding: 0 2rem;
 }
-.ct-contact a:hover{
-    color: rgb(255, 225, 188);
+.line_up_pt1 > a{
+    padding: 0 1rem;
+    font-size: 14px;
 }
-.contact-pt1 a{
-    padding: 0 10px;
+.line_up_pt2{
+    padding: 0 2rem;
 }
-.contact-pt2 a{
-    font-size: 18px;
-    padding: 0 5px;
+.line_up_pt2 > a{
+    padding: 0 0.2rem;
 }
-/* */
-.button{
-    width: auto;
-    padding: 12px 20px;
-    background-color: #2b2b2b;
-    border-radius: 10% 40px;
-    transition: 0.12s;
+.banner{
+    background-color: #1b1b1b;
+    height: 32rem;
+    position: relative;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 60% 40%;
+    padding: 0 5rem;
 }
-.button:hover{
-    background-color: rgb(58, 58, 58);
+.nav_space{
+    padding-top: 2.5rem;
+    grid-row: 1;
+    grid-column: 1 / 3;
+    display: grid;
 }
-
-/*  */
 .nav_bar{
-    position: sticky;
     text-align: center;
-    margin: 2px 70px;
-    margin-top: 8px;
+    margin: 0px 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -149,39 +126,33 @@ a:visited{
     margin: auto;
 }
 .nav_bar img{
-    margin: auto 25px;
+    margin: auto 0px;
     width: 7%;
     border-radius: 50%;
     cursor: pointer;
 }
-
-/*  */
-.port_index{
-    margin: -30px 100px;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    height: 500px;
-}
-.port_index_txt{
-    width: 55%;
-    margin:  130px auto;
+.banner_txt{
+    grid-row: 2;
+    transform: translateY(-25px);
+    grid-column: 1;
+    margin: auto;
     padding: 0px 20px;
+    color: #fff;
 }
-.port_index_txt h3{
+.banner_txt h3{
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 35px;
     margin-bottom: -15px;
 }
-.port_index_txt p{
+.banner_txt p{
     color: rgba(255, 255, 255, 0.7);
     padding: 30px 5px;
 }
-.port_index_txt i{
+.banner_txt i{
     font-size: 18px;
 }
-.port_index_txt a{
+.banner_txt a{
     padding: 17px 24px;
     background-color: #2b2b2b;
     border-radius: 10% 40px;
@@ -189,57 +160,30 @@ a:visited{
     font-size: 17px;
     cursor: pointer;
 }
-.port_index a:hover{
-    background-color: rgb(58, 58, 58);
+.banner_img{
+    align-items: center;
+    grid-row: 2;
+    grid-column: 2;
 }
-.port_index_img{
-    width: 45%;
-}
-.port_index img{
-    width: 110%;
-    transform: translateY(-10px);
-}
-
-/* */
-.block_cont{
+.banner_img img{
+    width: 100%;
     margin: auto;
-    transform: translateY(-70px);
-    color: #fff;
-    width: 82%;
+    aspect-ratio: 4/3;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
 }
-.block{
-    background-color: rgb(175, 99, 164);
-    border-radius: 5%;
-    margin: auto;
-    width: 20%;
-    height: 220px;
-    text-align: center;
-    padding: 7% 0;
-    transition: 0.25s;
-}
-.block:hover{
-    cursor: pointer;
-    background-color: #ca67b1;
-    transform: translateY(-10px);
-    color: #fff;
-}
-.block i{
-    font-size: 20px;
-}
-.block p{
-    font-size: 18px;
-    padding: 15px;
-}
+/* --- */
 
-/* Información General */
+/* Nosotros */
 .ct-info_index{
-    font-size: 18px;
+    font-size: 16px;
     margin: auto;
     padding: 25px 110px;
 }
-.ct-info_index h3{
-    font-size: 36px;
+.ct-info_index h1{
+    font-size: 32px;
     text-align: center;
 }
 .ct-info_index p{
@@ -249,17 +193,19 @@ a:visited{
     opacity: 1;
 }
 .ct-info_index_2{
-    padding: 20px 0;
-    padding-bottom: 35px;
+    padding: 0;
+    padding-top: 20px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 40px;
 }
 .ct-info_index_2 img{
     width: 100%;
     transition: 0.25s;
     border-radius: 5px;
+    margin: 0;
+    aspect-ratio: 6/4;
 }
 .ct-info_index_2 img:hover{
     opacity: 0.85;
@@ -280,14 +226,14 @@ a:visited{
     color: rgb(143, 81, 134);
     padding: 0 3px;
 }
-
+/* */
 
 /* Info Valores */
 .ct-info_valores h1{
     text-align: center;
 }
 .ct-info_valores{   
-    margin: 0rem 5rem 0rem 5rem;
+    margin: 0rem 8rem 0rem 8rem;
     align-items: center;
 }
 .ct-info_valores-blocks{
@@ -304,8 +250,11 @@ a:visited{
     background-color: rgb(216, 167, 209);
     height: 450px;
     border-radius: 10px;
-    padding: 70px 30px;
     transition: 0.25s ;
+}
+.block-v > img{
+    width: 50%;
+    aspect-ratio: 4 / 3;
 }
 .block-v:hover{
     transform: translateY(-10px);
@@ -328,10 +277,104 @@ a:visited{
 }
 /* */
 
-/* FAQ */
-.ct-info_valores h1{
+/* Form */
+.main_form{
+    background-color: rgb(236, 236, 236);
+    display: grid;
+    grid-template-columns: 29% 1% 70%;
+    margin: 2rem 0;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 0 10px;
+}
+.main_form form{
+    padding: 20px 30px;
+}
+.un{
+    background-color: #ccc;
+    width: 3px;
+    margin: auto;
+    border: none;
+    height: 22em;
+    border-radius: 10px;
+    padding: 0;   
+}
+.sec_info{
+    margin: auto;
+    width: 100%;
     text-align: center;
 }
+.sec_info i{
+    font-size: 34px;
+    color: rgb(175, 99, 164);
+}
+.sec_info h5{
+    font-size: 18px;
+    padding: 5px;
+}
+.sec_info ul{
+    list-style: none;
+}
+.sec_info li{
+    padding: 15px 0;
+    transition: 10s;
+}
+.sec_info li>i:hover{
+    transform: translateY(-4px);
+}
+.sec_info li>a:hover>i{
+    transform: translateY(-4px);
+}
+form h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    padding-bottom: 0px 5px;
+}
+form p{
+    padding: 12px 0px;
+    text-align: justify;
+}
+input{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    margin: 4px auto;
+    padding: 12px 16px;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type=submit]{
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: rgb(175, 99, 164);
+    color: #fff;
+    cursor: pointer;
+    transition: 400ms;
+}
+input[type=submit]:hover{
+    background-color: rgb(184, 104, 170);
+    transition-duration: 0.08s;
+    transform: translateY(-1px);
+    color: #fff;
+}
+textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    margin: 4px auto;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+}
+/* **/
+
+/* FAQ */
 .cont_faq{
     margin: 0 0 2rem 0;
     width: 100%;
@@ -411,98 +454,6 @@ a:visited{
 }
 /* */
 
-/* Form */
-.main_form{
-    background-color: rgb(236, 236, 236);
-    display: grid;
-    grid-template-columns: 29% 1% 70%;
-    margin: 3rem 0;
-    color: rgba(0, 0, 0, 0.65);
-}
-.main_form form{
-    padding: 20px 30px;
-}
-.un{
-    background-color: #ccc;
-    width: 3px;
-    margin: auto;
-    border: none;
-    height: 22em;
-    border-radius: 10px;
-    padding: 0;   
-}
-.sec_info{
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
-.sec_info i{
-    font-size: 34px;
-    color: rgb(175, 99, 164);
-}
-.sec_info h5{
-    font-size: 18px;
-    padding: 5px;
-}
-.sec_info ul{
-    list-style: none;
-}
-.sec_info li{
-    padding: 15px 0;
-}
-.sec_info li>i:hover{
-    transform: translateY(-4px);
-    transition: 100ms;
-}
-form h3{
-    font-size: 34px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.65);
-    padding-bottom: 0px 5px;
-}
-form p{
-    padding: 12px 0px;
-}
-input{
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    margin: 4px auto;
-    padding: 12px 16px;
-    color: #000;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-}
-input[type=submit]{
-    margin: auto;
-    margin-top: 10px;
-    width: 100%;
-    padding: 12px 20px;
-    background-color: rgb(175, 99, 164);
-    color: #fff;
-    cursor: pointer;
-    transition: 400ms;
-}
-input[type=submit]:hover{
-    background-color: rgb(184, 104, 170);
-    transition-duration: 0.08s;
-    transform: translateY(-1px);
-    color: #fff;
-}
-textarea{
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    margin: 4px auto;
-    padding: 12px 20px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 4px;
-    resize: none;
-    font-size: 16px;
-}
-/* **/
-
 /* Pie  */
 .foot{
     width: 100%;
@@ -545,6 +496,7 @@ textarea{
     padding: 10px;
     padding-bottom: 8px;
     background-color: rgb(143, 81, 134);
+    color: #fff;    
 }
 .foot_content a:hover{
     color: rgba(255, 255, 255, 0.7);
@@ -552,11 +504,11 @@ textarea{
 .contact_div{
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 0px;
+    padding:    0px;
 }
 .contact_div ul{
     list-style: none;
-    padding: 15px;
+    padding: 0 15px;
 }
 .contact_div li{
     padding: 5px 0px;
@@ -564,12 +516,13 @@ textarea{
 .contact_div a, p{
     opacity: 0.7;
     transition: 0.15s;
+    /*color: #fff;*/
 }
 .contact_div a:hover{
     opacity: 1;
 }
 .bigger_nicer{
-    font-size: 22px;
+    font-size: 18px;
 }
 .copyright_div{
     width: 100%;
@@ -578,18 +531,3 @@ textarea{
     letter-spacing: 1px;
     text-align: center;
 }
-
-
-@media screen and (max-width: 1440px){
-    .port_index img{
-        width: 98%;
-        transform: translateY(-10px);
-    }
-}
-
-/* --- */
-.swiper{
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-/* --- */
